@@ -2,6 +2,7 @@ import argentina from "./argentina.png";
 import australia from "./australia.png";
 import brasil from "./brasil.png";
 import coreaDelSur from "./corea-del-sur.png";
+import croacia from "./croacia.png";
 import espana from "./espana.png";
 import estadosUnidos from "./estados-unidos.png";
 import francia from "./francia.png";
@@ -19,6 +20,7 @@ const flags = [
   australia,
   brasil,
   coreaDelSur,
+  croacia,
   espana,
   estadosUnidos,
   francia,

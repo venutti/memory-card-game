@@ -51,14 +51,21 @@ function MemoryCardGame() {
   const { cards, score, record, selectCardAt } = useMemoryCardGameState();
   return (
     <>
-      {cards.map((card, i) => (
-        <img
-          key={i}
-          src={card.flag}
-          alt="bandera"
-          onClick={() => selectCardAt(i)}
-        />
-      ))}
+      <div className="scoreboard">
+        <p>PUNTAJE: {score}</p>
+        <p>RECORD: {record}</p>
+      </div>
+      <div className="board">
+        {cards.map((card, i) => (
+          <div className="card" key={i}>
+            <img
+              src={card.flag}
+              alt="bandera"
+              onClick={() => selectCardAt(i)}
+            />
+          </div>
+        ))}
+      </div>
     </>
   );
 }

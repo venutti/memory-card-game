@@ -1,0 +1,50 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./imgs/bg_qatar_cup.jpeg");
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  padding: 2rem;
+}
+.header h1 {
+  font-size: 3rem;
+}
+.header p {
+  font-size: 1.5rem;
+}
+
+.scoreboard {
+  text-align: left;
+  font-size: 1.5;
+  border: 2px solid #3f071c;
+  background-color: #080103;
+  margin: 0 20vw;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+
+.board {
+  padding: 1rem;
+  column-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
+}
+.card {
+  cursor: pointer;
+}
+.card:hover {
+  filter: brightness(0.6);
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
