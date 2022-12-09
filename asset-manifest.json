@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.0380bd78.css",
+    "main.js": "/memory-card-game/static/js/main.07bb4b5b.js",
+    "static/media/bg_qatar_cup.jpeg": "/memory-card-game/static/media/bg_qatar_cup.3a60f4c8c0b48bd7cf2f.jpeg",
+    "static/media/australia.png": "/memory-card-game/static/media/australia.23da8a9976f4c75abbc2.png",
+    "static/media/corea-del-sur.png": "/memory-card-game/static/media/corea-del-sur.8abd5d9551935697f33c.png",
+    "static/media/estados-unidos.png": "/memory-card-game/static/media/estados-unidos.3667fd12e96aec6f5787.png",
+    "index.html": "/memory-card-game/index.html",
+    "main.0380bd78.css.map": "/memory-card-game/static/css/main.0380bd78.css.map",
+    "main.07bb4b5b.js.map": "/memory-card-game/static/js/main.07bb4b5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0380bd78.css",
+    "static/js/main.07bb4b5b.js"
+  ]
+}
